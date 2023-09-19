@@ -70,7 +70,12 @@ textarea, input[type="number"]{
     color: #919191;
 }
 
-
+#ls{
+    position: absolute;
+    right: 0;
+    top: 135px;
+    border: solid black 1px;
+}
 
 
 
