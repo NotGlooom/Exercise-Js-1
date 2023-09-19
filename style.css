@@ -1,0 +1,97 @@
+p, span{
+    font-family: Calibri;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: inline;
+    position: relative;
+}
+
+.nav-item{
+    display: inline;
+    position: relative;
+    top: -20px;
+    left: 250px;
+    padding-right: 18px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+
+}
+
+.nav-item .nav-link-active {
+    color: black;
+}
+
+h1{
+    font-family: Calibri;
+}
+
+.text-muted-ms-1-mb-3 {
+    color: grey;
+    margin-top: -15px;
+}
+
+h2{
+    font-family: Calibri;
+}
+
+textarea, input[type="number"]{
+    width: 520px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 33px;
+    border: 1px solid lightgrey;
+}
+
+
+#ajouter, #annuler{
+    width: 528px;
+    height: 33px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ajouter{
+    border: solid #76c976 2px;
+    color: #76c976;
+}
+
+#annuler{
+    border: solid #919191 2px;
+    color: #919191;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
