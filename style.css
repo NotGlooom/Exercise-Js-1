@@ -72,9 +72,38 @@ textarea, input[type="number"]{
 
 #ls{
     position: absolute;
-    right: 0;
+    left: 700px;
     top: 135px;
-    border: solid black 1px;
+}
+
+#ls label{
+    font-family: Calibri;
+}
+
+#ls input[type=email]{
+    width: 520px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+#ls button{
+    height: 33px;
+    float: right;
+    margin-top: 25px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#go {
+    border: solid #76c976 2px;
+    color: #76c976;
+}
+
+#no {
+    border: solid #919191 2px;
+    color: #919191;
 }
 
 
