@@ -3,7 +3,7 @@
 /* Multi ligne
 *
 * */
-
+/*
 let uneVariable = 2;
 const Une_Constante = 5;
 
@@ -41,3 +41,29 @@ while(1<=5){
     console.log(i)
     i++;
 }
+
+
+
+let variable = "fichier"
+console.log(`Voir le ${variable} au \\chemin...`);
+console.log(variable.length)
+*/
+
+/**
+ * La fonction bonjour permet de saluer une personne
+ * @param nom la personne a saluer
+ * @returns {string} La phrase de salutation
+ */
+function bonjour(nom){
+    return "bonjour "+nom
+}
+console.log(bonjour("Jean"))
+
+
+
+
+
+
+
+
+
