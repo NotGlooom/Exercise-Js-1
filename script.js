@@ -4,11 +4,12 @@ function item(){
     let descr = document.getElementById("desc").value
     let valeur = document.getElementById("valeur").value
 
+
+
+
     let p = document.createElement("p")
     p. innerText = `${descr} et ${valeur}`
     boite.appendChild(p)
-
-
 
 
 
@@ -16,3 +17,7 @@ function item(){
     document.getElementById("valeur").value = "";
 }
 
+function clear(){
+    document.getElementById("desc").value = "";
+    document.getElementById("valeur").value = "";
+}
