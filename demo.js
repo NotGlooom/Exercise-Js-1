@@ -59,10 +59,16 @@ function bonjour(nom){
 }
 console.log(bonjour("Jean"))
 
-let nbr1 = "12"
-let nbr2 = 12
 
-console.log(nbr1 + nbr2)
+let plus = 12
+function tester(){
+    let total = document.getElementById("text").innerHTML
+
+    total = parseInt(total) + plus
+    console.log(total)
+
+    document.getElementById("text").innerHTML = `${total}$`
+}
 
 
 

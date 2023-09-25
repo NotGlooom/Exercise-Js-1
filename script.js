@@ -15,8 +15,10 @@ function item(){
     boite.appendChild(b)
 
     //Ajouter au total
-    let total = document.getElementById("nbr").value
-    document.getElementById("nbr")
+    let total = document.getElementById("nbr").innerHTML
+    total = parseInt(total) + parseInt(valeur)
+
+    document.getElementById("nbr").innerHTML = `${total}$`
 
 
 

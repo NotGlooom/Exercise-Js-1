@@ -121,15 +121,11 @@ textarea, input[type="number"]{
     color: #919191;
 }
 
-#ls input[type=text]{
-    border: none;
+#ls p {
     float: right;
-    width: 20px;
-    margin-top: 18px;
     margin-right: 10px;
     margin-bottom: 15px;
     color: #919191;
-    font-size: 14px;
 }
 
 #ls input[type=email]{
