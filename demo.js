@@ -59,6 +59,11 @@ function bonjour(nom){
 }
 console.log(bonjour("Jean"))
 
+let nbr1 = "12"
+let nbr2 = 12
+
+console.log(nbr1 + nbr2)
+
 
 
 

@@ -5,14 +5,22 @@ function item(){
     let valeur = document.getElementById("valeur").value
 
 
+    let b = document.createElement("div")
+    b. innerHTML = `${descr}`
+
+    let span = document.createElement("span")
+    span. innerHTML = `${valeur} $`
+    b.appendChild(span)
+
+    boite.appendChild(b)
+
+    //Ajouter au total
+    let total = document.getElementById("nbr").value
+    document.getElementById("nbr")
 
 
-    let p = document.createElement("p")
-    p. innerText = `${descr} et ${valeur}`
-    boite.appendChild(p)
 
-
-
+    //Vide les inputs pour ajouter un item
     document.getElementById("desc").value = "";
     document.getElementById("valeur").value = "";
 }

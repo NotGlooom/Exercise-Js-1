@@ -89,19 +89,56 @@ textarea, input[type="number"]{
 
 #ls label{
     font-family: Calibri;
+    float: left;
+    margin-top: 40px;
 }
 
 #maliste {
-    border: 1px solid black;
-    height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: -10px;
+}
+
+#maliste div {
+    border: 1px solid lightgray;
+    height: 30px;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+#maliste span {
+    float: right;
+    margin-right: 15px;
+    color: white;
+    background-color: #499649;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#total{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: #919191;
+}
+
+#ls input[type=text]{
+    border: none;
+    float: right;
+    width: 20px;
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: #919191;
+    font-size: 14px;
 }
 
 #ls input[type=email]{
-    width: 520px;
+    display: block;
+    width: 420px;
     height: 33px;
     border-radius: 5px;
     border: 1px solid lightgrey;
+    margin-left: 100px;
 }
 
 #ls button{
